@@ -1,0 +1,16 @@
+INSERT INTO `polls` (`id`, `subject`, `created`, `modified`, `status`) VALUES
+(1, 'What is the capital of Turkey', '2019-09-25 04:13:13', '2016-09-25 04:13:13', '1');
+
+
+
+
+
+
+
+
+
+INSERT INTO `poll_options` (`id`, `poll_id`, `name`, `created`, `modified`, `status`) VALUES
+(1, 1, 'Istanbul', '2019-09-25 11:29:31', '2019-09-25 11:29:31', '1'),
+(2, 1, 'Baghdad', '2019-09-25 11:29:31', '2019-09-25 11:29:31', '1'),
+(3, 1, 'Ankara', '2019-09-25 11:29:31', '2019-09-25 11:29:31', '1'),
+(4, 1, 'None of the above', '2019-09-25 11:29:31', '2019-09-25 11:29:31', '1');
